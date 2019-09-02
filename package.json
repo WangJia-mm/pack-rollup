@@ -1,0 +1,59 @@
+{
+  "name": "pack-rollup",
+  "version": "1.0.0",
+  "description": "一款基于rollup开发的自动化工具",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node ./config/dev.js",
+    "build": "node ./config/build.js"
+  },
+  "bin": {
+    "rollup": "index.js"
+  },
+  "keywords": ["rollup"],
+  "author": "jia",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/node": "^7.5.5",
+    "@babel/plugin-external-helpers": "^7.2.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.5.5",
+    "@babel/plugin-syntax-object-rest-spread": "^7.2.0",
+    "@babel/plugin-transform-react-jsx": "^7.3.0",
+    "@babel/plugin-transform-runtime": "^7.5.5",
+    "@babel/polyfill": "^7.4.4",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/runtime": "^7.5.5",
+    "chalk": "^2.4.2",
+    "chokidar": "^3.0.2",
+    "koa": "^2.7.0",
+    "koa-compose": "^4.1.0",
+    "koa-static": "^5.0.0",
+    "node-sass": "^4.12.0",
+    "postcss-px2rem": "^0.3.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "rollup": "^1.17.0",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-buble": "^0.19.8",
+    "rollup-plugin-commonjs": "^10.0.2",
+    "rollup-plugin-copy": "^3.1.0",
+    "rollup-plugin-img": "^1.1.0",
+    "rollup-plugin-json": "^4.0.0",
+    "rollup-plugin-livereload": "^1.0.1",
+    "rollup-plugin-node-globals": "^1.4.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-postcss": "^2.0.3",
+    "rollup-plugin-serve": "^1.0.1",
+    "rollup-plugin-uglify": "^6.0.2"
+  },
+  "dependencies": {
+    "commander": "^3.0.0",
+    "postcss-pxtorem": "^4.0.1",
+    "prop-types": "^15.7.2",
+    "react-router-dom": "^4.3.1"
+  }
+}
